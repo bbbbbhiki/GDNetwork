@@ -4,7 +4,7 @@
 //
 //  Created by Journey on 2017/11/22.
 //  Copyright © 2017年 GoDap. All rights reserved.
-//
+//  本类用于配置基础信息
 
 #import <Foundation/Foundation.h>
 
@@ -255,14 +255,27 @@ typedef NSURLRequest *_Nullable (^GDRequestWillRedirectionBlock)(NSURLSession * 
 @property (nonatomic, copy, nullable) GDRequestWillRedirectionBlock redirectionBlock;
 
 
+///请求成功/失败回调
 - (void)startWithSuccessBlock:(nullable GDRequestCompletionBlock)successBlock
-                 
+                 failureBlock:(nullable GDRequestCompletionBlock)failureBlock;
 
+/// 请求状态的代理，主要回调请求开始于结束的状态
+@property (nonatomic, readonly, nullable) NSMutableSet<id<GDRequestAccessory> > *requestAccessories;
 
-
-
+/**
+ 添加请求状态的代理
+ 
+ @param requestAccessory 请求状态代理对象
+ */
+- (void)addReuestAccessory:(id<GDRequestAccessory>)requestAccessory;
 
 
 @end
+
+
+
+
+
+
 
 NS_ASSUME_NONNULL_END
