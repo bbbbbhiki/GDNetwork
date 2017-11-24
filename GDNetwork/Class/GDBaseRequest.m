@@ -7,7 +7,31 @@
 //
 
 #import "GDBaseRequest.h"
+#import "GDNetworkManager.h"
+#import "GDNetworkConfiguration.h"
 
 @implementation GDBaseRequest
+
+- (instancetype)init {
+    self = [super init];
+    if(!self) {
+        return nil;
+    }
+    
+    //_requesta = [NSMutableSet<id<GDRequestAccessory>> setWithCapacity:1];
+    return self;
+}
+
+//-(NSMutableSet<id<GDRequestAccessory>> *)requestAccessories {
+//    @synchronized (_req) {
+//        return _requestAccessories;
+//    }
+//}
+
+- (void)start {
+    self.requestManager star
+}
+
+
 
 @end

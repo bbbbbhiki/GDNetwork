@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A65918291D1A8DD7F871D0A /* libPods-GDNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B792FE9ECD74CFD389397A /* libPods-GDNetwork.a */; };
 		CE4FEAFC1FC7AE27009B7B09 /* GDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FEAFB1FC7AE27009B7B09 /* GDNetworkManager.m */; };
+		CE4FEAFF1FC7B367009B7B09 /* GDNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FEAFE1FC7B367009B7B09 /* GDNetworkConfiguration.m */; };
 		CE835AA61FC573480066714F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE835AA51FC573480066714F /* AppDelegate.m */; };
 		CE835AA91FC573490066714F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE835AA81FC573490066714F /* ViewController.m */; };
 		CE835AAC1FC573490066714F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE835AAA1FC573490066714F /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 		C5D5A0D21C43E9B16101750B /* Pods-GDNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDNetwork/Pods-GDNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		CE4FEAFA1FC7AE27009B7B09 /* GDNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDNetworkManager.h; sourceTree = "<group>"; };
 		CE4FEAFB1FC7AE27009B7B09 /* GDNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDNetworkManager.m; sourceTree = "<group>"; };
+		CE4FEAFD1FC7B367009B7B09 /* GDNetworkConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDNetworkConfiguration.h; sourceTree = "<group>"; };
+		CE4FEAFE1FC7B367009B7B09 /* GDNetworkConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDNetworkConfiguration.m; sourceTree = "<group>"; };
 		CE835AA11FC573480066714F /* GDNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE835AA41FC573480066714F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE835AA51FC573480066714F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				CE835ABC1FC573900066714F /* GDBaseRequest.m */,
 				CE4FEAFA1FC7AE27009B7B09 /* GDNetworkManager.h */,
 				CE4FEAFB1FC7AE27009B7B09 /* GDNetworkManager.m */,
+				CE4FEAFD1FC7B367009B7B09 /* GDNetworkConfiguration.h */,
+				CE4FEAFE1FC7B367009B7B09 /* GDNetworkConfiguration.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				CE835ABD1FC573900066714F /* GDBaseRequest.m in Sources */,
 				CE835AB41FC573490066714F /* main.m in Sources */,
 				CE4FEAFC1FC7AE27009B7B09 /* GDNetworkManager.m in Sources */,
+				CE4FEAFF1FC7B367009B7B09 /* GDNetworkConfiguration.m in Sources */,
 				CE835AA61FC573480066714F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

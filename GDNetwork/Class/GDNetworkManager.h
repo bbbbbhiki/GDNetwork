@@ -10,4 +10,6 @@
 
 @interface GDNetworkManager : NSObject
 
++ (instancetype)defaultManager 
+
 @end
