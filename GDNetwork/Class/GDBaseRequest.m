@@ -28,8 +28,9 @@
 //    }
 //}
 
+/// 开始请求
 - (void)start {
-    self.requestManager star
+    
 }
 
 
